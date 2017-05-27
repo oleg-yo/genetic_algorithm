@@ -1,7 +1,7 @@
 ### **Traveling salesman problem**
 
 This algorithm finds the shortest way to bypass all given cities (points in 2d space).
-
+---
 Gen - it's a city with its coordinates.
 
 Chromosome - it's one possible way to bypass all points.
