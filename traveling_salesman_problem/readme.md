@@ -1,7 +1,7 @@
-h3 Genetic algorithm
-h3 Artificial intelligence
+### Genetic algorithm
+### Artificial intelligence
 
-h2 Traveling salesman problem
+## Traveling salesman problem
 This algorithm finds the shortest way to bypass all given cities (points in 2d space).
 ---
 Gen - it's a city with its coordinates.
