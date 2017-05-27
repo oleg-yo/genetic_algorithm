@@ -32,7 +32,7 @@ void GA_TS_problem::run() {
         //printCurrentGeneration();
 
         doCrossingOver();
-        //doMutation();
+        doMutation();
 
         generations_amount_counter++;
     }
@@ -104,7 +104,7 @@ void GA_TS_problem::doCrossingOver() {
     }
 }
 void GA_TS_problem::doMutation() {
-    for (int i = 0; i < GENERATION_SIZE; i++) {
+    for (int i = GENERATION_SIZE / 3; i < GENERATION_SIZE; i++) {
         doMutationInChromosome(&current_generation[i].chromosomes[0]);
     }
 }
